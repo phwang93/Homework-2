@@ -93,3 +93,22 @@
     box-shadow: 0 0 5px azure, 0 0 10px azure, 0 0 5px azure;
     font-weight: bold;
 }
+
+#Intro {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 50px;
+
+}
+
+#portrait{
+    display: flex;
+}
+
+#portrait img{
+    width: 800px;
+    height: 300px;
+}
+

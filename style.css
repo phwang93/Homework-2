@@ -93,13 +93,14 @@
     font-weight: bold;
 }
 
+
+
 #Intro {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     padding: 20px;
     margin-bottom: 50px;
-    color: midnightblue;
 
 }
 
@@ -123,3 +124,26 @@
     font-size: 32px;
     margin-bottom: 20px;
 }
+
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    background-color: midnightblue;
+    color:azure;
+    align-items: center;
+    padding: 20px;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;  
+}
+
+.projects img{
+    width: 360px;
+    height: 240px;
+    margin: 20px;
+}
+

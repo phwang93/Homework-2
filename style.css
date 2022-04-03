@@ -38,7 +38,6 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-
 #main {
     display: flex;
     flex-direction: column;
@@ -100,6 +99,7 @@
     box-sizing: border-box;
     padding: 20px;
     margin-bottom: 50px;
+    color: midnightblue;
 
 }
 
@@ -108,7 +108,18 @@
 }
 
 #portrait img{
-    width: 800px;
-    height: 300px;
+    width: 1000px;
+    height: 400px;
 }
 
+#about{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 15px;
+}
+
+#about h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}

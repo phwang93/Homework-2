@@ -3,8 +3,13 @@
 }
 
 .header {
-    font-size: 27px
+    font-size: 24px
 }
+
+.headers {
+    font-size: 24px;
+}
+
 
 #portrait {
     width: 250px;
@@ -16,8 +21,8 @@
 }
 
 .projects img{
-    width: 275px;
-    height: 200px;
+    width: 250px;
+    height: 150px;
     margin: 60px;
     border-radius: 10px;
 }

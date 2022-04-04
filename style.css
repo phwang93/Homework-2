@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .navbar{
     display: flex;
     justify-content: center;
@@ -41,7 +45,7 @@
 #main {
     display: flex;
     flex-direction: column;
-    height: 900px;
+    height: 940px;
     justify-content: center;
     align-items: center;
     color: azure;
@@ -53,7 +57,7 @@
     top: 0;
     right: 0;
     background: url(./img/Cover.JPG) no-repeat center center/cover;
-    height: 950px;
+    height: 840px;
     width: 100%;
     z-index: -1;
     opacity: 0.08px;
@@ -101,6 +105,7 @@
     padding: 30px;
     margin-bottom: 50px;
     margin-top: 0 auto;
+    height: 740px;
 }
 
 .text {
@@ -138,7 +143,8 @@
     background-color: midnightblue;
     color:azure;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
+    height: 740px;
 }
 
 .projects {
@@ -152,14 +158,15 @@
 .projects img{
     width: 360px;
     height: 240px;
-    margin: 20px;
+    margin: 60px;
     border-radius: 10px;
 }
 
 #experiences {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 30px;
+    height: 740px;
 }
 
 .role {
@@ -167,6 +174,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     box-sizing: border-box;
+    margin: 60px;
 }
 
 .headers {
@@ -174,7 +182,7 @@
     font-size: 48px;
     font-weight: bold;
     text-align: center;
-    margin: 40px 0px;
+    margin: 30px 0px;
     color: azure;
 }
 
@@ -193,7 +201,7 @@
     border: 2px solid midnightblue;
     align-items: center;
     border-radius: 20px;
-    padding: 10px;
+    padding: 25px;
     background: linear-gradient(to top, midnightblue 50%, azure 50%); 
     background-size: 100% 200%;
     transition: all 0.5s;
@@ -206,3 +214,52 @@
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
+#contact {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: midnightblue;
+    color: azure;
+    padding: 30px; 
+    height: 740px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items:center;
+    margin: 20px 0px;
+}
+
+.input {
+    padding: 12px;
+    margin: 10px;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+
+#msg {
+    padding: 10px;
+    margin: 10px;
+    width: 20%;
+    border: none;
+    outline: none;
+}
+
+#send {
+    padding: 15px;
+    margin: 20px;
+    width: 10%;
+    border: none;
+    outline: none;
+}
+
+#send:hover {
+    cursor: pointer;
+    background-color: azure;
+    color: midnightblue;
+    box-shadow: 0 0 5px azure, 0 0 10px azure, 0 0 5px azure;
+    font-weight: bold;
+}

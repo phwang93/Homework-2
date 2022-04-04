@@ -72,7 +72,7 @@
     font-weight: bold;
     text-align: center;
     margin: 40px 0px;
-
+    color: midnightblue;
 }
 
 .butt {
@@ -94,8 +94,6 @@
     font-weight: bold;
 }
 
-
-
 #Intro {
     display: flex;
     flex-direction: column;
@@ -103,7 +101,13 @@
     padding: 30px;
     margin-bottom: 50px;
     margin-top: 0 auto;
+}
 
+.text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: midnightblue
 }
 
 #portrait{
@@ -152,3 +156,54 @@
     border-radius: 10px;
 }
 
+#experiences {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.role {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.headers {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px 0px;
+    color: azure;
+}
+
+.texts {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: azure;
+}
+
+.duties {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    text-align: justify;
+    border: 2px solid midnightblue;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+    background: linear-gradient(to top, midnightblue 50%, azure 50%); 
+    background-size: 100% 200%;
+    transition: all 0.5s;
+}
+
+
+
+.duties:hover {
+    background-position: left bottom;
+    color: azure;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}

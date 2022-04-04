@@ -1,0 +1,35 @@
+#main {
+    height:800;
+}
+
+.header {
+    font-size: 27px
+}
+
+#portrait {
+    width: 250px;
+    height: 150px
+}
+
+#about h2 {
+    font-size: 24px
+}
+
+.projects img{
+    width: 275px;
+    height: 200px;
+    margin: 60px;
+    border-radius: 10px;
+}
+
+.input{
+    width: 80%;
+}
+
+#msg {
+    width: 70%;
+}
+
+#send {
+    width: 20%;
+}

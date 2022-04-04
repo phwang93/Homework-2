@@ -144,7 +144,7 @@ html{
     color:azure;
     align-items: center;
     padding: 30px;
-    height: 740px;
+    height: 900px;
 }
 
 .projects {
@@ -166,7 +166,7 @@ html{
     display: flex;
     flex-direction: column;
     padding: 30px;
-    height: 740px;
+    height: 900px;
 }
 
 .role {
